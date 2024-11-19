@@ -1,4 +1,4 @@
-        /* Making the body look nice */
+        /* Body styles */
         body {
             font-family: "inter", sans-serif;
             margin: 60px auto;
@@ -98,8 +98,6 @@
         }
 
 
-
-
         /* Footer section styles*/
 
         footer {
@@ -137,37 +135,77 @@
         }
 
         /* Contact Us Section Styles*/
-.contact{
-    background-color: rgba(5, 7, 53, 0.95);
-    padding: 10px 0px;
-    margin: 80px;
-    margin-bottom: 16px;
-    max-width: 800px;
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.52);
-    border-radius: .5rem;
-    font-family: "Inter", sans-serif;
-    box-sizing: border-box;
-    resize: vertical;
-}
+        .contact{
+            background-color: rgba(5, 7, 53, 0.95);
+            padding: 10px 0px;
+            margin: 80px;
+            margin-bottom: 16px;
+            max-width: 800px;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.52);
+            border-radius: .5rem;
+            font-family: "Inter", sans-serif;
+            box-sizing: border-box;
+            resize: vertical;
+        }
+        
+        .contact h2{
+            padding: 10px;
+            text-decoration: none;
+            font-family: "Inter", sans-serif;
+            color: #e6e6e6;
+        }
+        
+        .contact-box {
+            color: #e6e6e6;
+            font-family: "Inter", sans-serif;
+        }
+        
+        input[type=submit] {
+            font-family: "Inter", sans-serif;
+            background-color: white;
+            color: black;
+            padding: 12px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
 
-.contact h2{
-    padding: 10px;
-    text-decoration: none;
-    font-family: "Inter", sans-serif;
-    color: #e6e6e6;
-}
+        /* button allignment for Services page */
 
-.contact-box {
-    color: #e6e6e6;
-    font-family: "Inter", sans-serif;
-}
+        .chapter-section {
+            display: flex;
+            justify-content: space-between;
 
-input[type=submit] {
-    font-family: "Inter", sans-serif;
-    background-color: white;
-    color: black;
-    padding: 12px 15px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
+        }
+
+        .enquire-button {
+            align-self: flex-end;
+        }
+
+        /*Services Section Styles */
+
+        .enquire-button-container {
+            text-align: right;
+            margin-top: 10px;
+        }
+
+        .enquire-button {
+            text-transform: uppercase;
+            font-family: "Inter" sans-serif;
+            font-size: 17px;
+            color: #fff;
+            background-color: rgb(21, 29, 143);
+            border: none;
+            border-radius: 3px;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            text-decoration: none;
+            a:visited { text-decoration: none; color:white; }
+            a:hover, a:active { text-decoration: none; color:rgb(21, 9, 143) }
+        }
+
+        .enquire-button:hover {
+            background-color: rgb(81, 88, 189);
+            color: #fff;
+        }
