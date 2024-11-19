@@ -85,6 +85,7 @@
         
         .home-body {
             position: relative;
+            position: flex;
             left: 25%;
             width: 50%;
             height: 35%;
